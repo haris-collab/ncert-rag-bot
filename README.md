@@ -102,9 +102,19 @@ python data_ingestion.py
 This creates a ncert_text.txt file.
 
 
+🚨Make sure ollama application is running in the background🚨
+Do this before running your streamlit_app.py:
+Start Ollama server (in a separate terminal):
+```
+ollama serve
+```
+On macOS & Linux, Ollama usually runs automatically as a background service after installation.
+If not, running this will start it.
 
 7️⃣ Run the Tutor in Streamlit
+```
 streamlit run streamlit_app.py
+```
 Open your browser at:
 ```
 http://localhost:8501
