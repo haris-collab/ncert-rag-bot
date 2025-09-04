@@ -74,7 +74,8 @@ Linux:
 curl -fsSL https://ollama.com/install.sh | sh
 ```
 Windows:
-Download installer from https://ollama.com/download.
+Download installer from ```https://ollama.com/download.```
+
 Verify installation:
 ```
 ollama --version
