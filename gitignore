@@ -1,0 +1,6 @@
+__pycache__/
+*.pyc
+*.db
+ncert_text.txt
+ncert_db/
+.env
