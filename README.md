@@ -15,7 +15,7 @@ You can upload or use the included NCERT PDFs, and the bot will answer questions
 ---
 
 ## 📂 Project Structure
-
+```
 ncert-rag-bot/
 │── data_ingestion.py # Extracts text from PDF and saves as ncert_text.txt
 │── chunking.py # Splits extracted text into overlapping chunks
@@ -29,7 +29,7 @@ ncert-rag-bot/
 │── venv/ # Virtual environment (not pushed to GitHub)
 │── ncert_db/ # Chroma database (ignored in Git)
 │── ncert_text.txt # Extracted text (ignored in Git)
-
+```
 
 
 ---
